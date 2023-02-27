@@ -1,0 +1,62 @@
+/* Set the font family and size for the entire document */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 21cm; /* A4 width in centimeters */
+  height: 29.7cm; /* A4 height in centimeters */
+  margin: 1cm 12.7cm; /* top and bottom margin of 4.7cm, left and right margin of 12.7cm */
+}
+
+/* Style for the main heading (name) */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+/* Style for the subheading (job title) */
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Style for the contact information */
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+/* Style for the main section */
+.main-section {
+  margin-top: 80px;
+  width: 50%;
+  float: left;
+  background-color: #fff;
+  border: 0px solid #ddd;
+}
+
+/* Style for the paragraph text in the main section */
+.main-section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Style for the bullet points in the main section */
+.main-section li {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Style for the Education heading in the main section */
+.main-section p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.empty-div {
+  background-color: #F0EAD6;
+}
+
